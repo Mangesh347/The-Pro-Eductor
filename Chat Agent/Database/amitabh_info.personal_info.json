@@ -1,0 +1,12 @@
+{
+  "name": "Amitabh Harivansh Rai Bachchan",
+  "dob": "1942-10-11",
+  "birthPlace": "Prayagraj, Uttar Pradesh, India",
+  "residence": "Mumbai, Maharashtra, India",
+  "profession": ["Actor", "Film Producer", "Television Host", "Former Politician"],
+  "family": {
+    "wife": "Jaya Bachchan",
+    "children": ["Abhishek Bachchan", "Shweta Bachchan Nanda"],
+    "grandchildren": ["Aaradhya Bachchan"]
+  }
+}
