@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from pymongo import MongoClient
@@ -24,7 +25,7 @@ chats = db["chats"]  # NEW collection for chat history
 # -------------------------
 # OpenRouter API Setup
 # -------------------------
-api_key = "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"  # paste your real key here # replace with your real key
+api_key = os.getenv("OPENROUTER_API_KEY", "")  # set in environment; never commit keys
 url = "https://openrouter.ai/api/v1/chat/completions"
 
 def get_openrouter_response(question, context):
